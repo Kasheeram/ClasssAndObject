@@ -14,6 +14,7 @@
 		2B89860D1F7C2C7600882423 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B89860B1F7C2C7600882423 /* LaunchScreen.storyboard */; };
 		2B8986181F7C2C7800882423 /* ClasssAndObjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8986171F7C2C7800882423 /* ClasssAndObjectTests.swift */; };
 		2B8986231F7C2C7800882423 /* ClasssAndObjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8986221F7C2C7800882423 /* ClasssAndObjectUITests.swift */; };
+		2B8986311F7C2D1300882423 /* CommonObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8986301F7C2D1300882423 /* CommonObjects.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		2B89861E1F7C2C7800882423 /* ClasssAndObjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClasssAndObjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B8986221F7C2C7800882423 /* ClasssAndObjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClasssAndObjectUITests.swift; sourceTree = "<group>"; };
 		2B8986241F7C2C7800882423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B8986301F7C2D1300882423 /* CommonObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommonObjects.swift; path = ../CommonObjects.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				2B8986021F7C2C7400882423 /* AppDelegate.swift */,
 				2B8986041F7C2C7400882423 /* ViewController.swift */,
+				2B8986301F7C2D1300882423 /* CommonObjects.swift */,
 				2B8986061F7C2C7600882423 /* Main.storyboard */,
 				2B8986091F7C2C7600882423 /* Assets.xcassets */,
 				2B89860B1F7C2C7600882423 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				2B8986051F7C2C7400882423 /* ViewController.swift in Sources */,
 				2B8986031F7C2C7400882423 /* AppDelegate.swift in Sources */,
+				2B8986311F7C2D1300882423 /* CommonObjects.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
